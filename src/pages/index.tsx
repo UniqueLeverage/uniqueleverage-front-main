@@ -1,0 +1,6 @@
+export {default as Home} from './Home'
+export {default as Pricing} from './Pricing'
+export {default as TermsOfService} from './TermsOfService'
+export {default as PrivacyPolicy} from './PrivacyPolicy'
+export {default as CookiePolicy} from './CookiePolicy'
+export {default as Scheduler} from './Scheduler'
