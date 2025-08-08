@@ -1,7 +1,15 @@
 {
   "files": [],
   "compilerOptions": {
-    "types": ["node"]
+    "jsx": "react-jsx",                 // ✅ Use React 17+ JSX transform
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "react", "react-dom"],  // ✅ Include JSX types
   },
   "references": [
     {
